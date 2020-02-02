@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid-E Community</title>
+		<link rel="stylesheet" type="text/css" href="gridE.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		$( function() {
+		$( ".draggable" ).draggable();
+		} );
+		</script>
+	</head>
+	<body>
+		<center><h1 id = "title" ><a href="home.html">Grid-E Community</a></h1></center><hr>
+		<center>
+		<nav>
+			<li><a href="vendor.html">Vendor Info</a></li>
+			<li><a href="gridE.html">My Account</a></li>
+			<li>Mailbox</li>
+		</nav>
+		</center><hr><br>
+		<div class = "row">
+			<div class = "col left">
+				<form id = "roomInput">
+				Enter # of Rooms <input type="text" name="rooms"> 
+				</form>
+				<button id= "but">OUTLINE IMAGE</button>
+
+		
+				<br>
+				<img id = "home" src="home.png">
+				<img id="home2" src="home2.png">
+			</div>
+			<div class = "col right">
+				
+				<div class = "sub-col left ">
+					<center>
+					<div class= "totals" id = 'curTotal'>
+						<div class = 'hour'>
+							Current kWh
+							<a/div>
+								<div class = 'hrVals' id = 'curHrTotVal'>$.16</div>
+								<!-- .18 -->
+								
+								<div class = 'year'>
+									Current Cost/Year
+								</div>
+								<div class = 'yrVals' id = 'curYrtotVal'>$1401</div>
+								<!-- 1576 -->
+								<hr>
+							</div>
+							<div class= "totals" id = 'curTotal'>
+								<div class = 'hour'>
+									Potential kWh
+								</div>
+								<div class = 'hrVals' id = 'potHrtotVal'>$.15</div>
+								<div id = "potYear" class = 'year'>
+									Potential Cost/Year
+								</div>
+								<div class = 'yrVals' id = 'potYrtotVal'>$1314</div>
+								<hr>
+							<div id = "savingTot">
+								<div id ="saving">Pontential Total Savings</div>
+								<div id = "savnum">$613/YR</div>
+							</div>
+
+
+							</div>
+							</center>
+							
+							<table id = "appliances">
+								<tr>
+									<th>
+										<ul id = 'devList'>
+											<li>
+												<select id = 'drpdown'>
+													<option value="Kenmore">Kenmore Dish Washer 200</option>
+													<option value="Sanyo">Sanyo Stovetop 1000</option>
+													<option value="WhirlpoolD">Whirlpool Drier</option>
+													<option value="WhirlpoolW">Whirlpool washer</option>
+													<option value="Becker">Becker Oven</option>
+													<option value="Kirkland">Kirk Microwave</option>
+												</select>
+											</li>
+											<li>
+												<button id= 'adder1'>
+												Add Appliance
+												</button>
+											</li>
+										</ul>
+										Appliance/Device List
+									</th>
+									<th><br><br><br>kWh/cost</th>
+									<th>
+										<ul id = 'devList'>
+											<li>
+												<select id = 'drpdown1'>
+
+													<option value="Kenmore">GE POWER FURNACE  </option>
+													<option value="Sanyo">Sanyo Stovetop 1000</option>
+													<option value="WhirlpoolD">Whirlpool Drier</option>
+													<option value="WhirlpoolW">Whirlpool washer</option>
+													<option value="Becker">Becker Oven</option>
+													<option value="Kirkland">Kirk Microwave</option>
+												</select>
+											</li>
+											<br>
+											<li>
+												<button id= 'adder2'>
+												Smart Replace
+												</button>
+											</li>
+										</ul>
+										Potential Replacement
+									</th>
+									<th><br><br><br>kWh/cost</th>
+								</tr>
+								<tr>
+									<td>Whirlpool Drier 2000</td>
+									<td> $0.02</td>
+								</tr>
+								<tr id = "bdWasher">
+									<td>Black n Decker Washer </td>
+									<td> $0.045</td>
+									
+								</tr>
+								<tr>
+									<td>Black n Decker Drier </td>
+									<td> $0.01</td>
+								</tr>
+								<tr id = "furnace">
+									<td>Kenmore Furnace  </td>
+									<td> $0.05</td>
+								</tr>
+								<tr>
+									<td>Kenmore A/C  </td>
+									<td> $0.04</td>
+								</tr>
+
+							</table>
+							
+						</div>
+						
+						<div id = "suggestion" class= "sub-col right ">
+						
+							<ul id = "suggests">
+								<center><li id = "sugtite" >	<u >Suggestion Box</u></li></center>
+								<li class = "sug">Consider replacing *WASHER*. Current average kWh for this device is $0.03</li>
+								<li class = "sug">Consider replacing *FURNACE*. Current average kWh for this device is $0.04</li>
+							</ul>
+
+						</div>
+						
+					</div>
+					
+				</div>
+			</body>
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<script>
+				
+			</script>
+			<script type="text/javascript" src = "gridE.js"></script>
+		</html>

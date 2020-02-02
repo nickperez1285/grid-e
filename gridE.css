@@ -1,0 +1,160 @@
+
+#savnum{
+	font-size: 2em ;
+}
+#savingTot{
+	display: none 
+}
+#sugtite{
+	font-size: 1.5em;
+		list-style: none;
+
+}
+ #suggestion {
+	background: #ffc4da
+}
+#roomInput{
+display: inline-flex;
+float: left
+}
+#but{
+display: inline-flex;
+}
+#saving{
+font-size: 1.5em;
+font-weight: bold
+}
+#savingTot
+{
+font-size: 1em;
+font-weight: bold;
+color: gold	;
+border:solid;
+border-radius: 20px;
+word-wrap: break-word;
+}
+#suggestion{
+	border:solid ;
+	width: 100%;
+}
+.totals{
+	width: 75%;
+}
+
+.hour { 
+	font-size: 1em
+
+ }
+ .hrVals{
+ 	font-size: 1em;
+ }
+ .yrVals{
+ 	font-size:1.5em;
+ }
+
+ .year{
+ 	font-size: 1.2em;
+ 	font-weight:bold ;
+ }
+
+ #potYrtotVal{
+ 	color: green;
+ }
+ #curYrtotVal{
+ 	color: red;
+ }
+
+ #potYear{
+ 	font-size: 1.2em;
+ }
+#devList {
+	list-style: none;
+		padding-left: 0em ;
+
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+nav{
+	display: inline-flex;
+	list-style: none;
+
+}
+nav > li{
+		margin-left: 1em;
+	}
+.right{
+
+	display: flex;
+	width: 50%;
+
+}
+
+.left{
+	width: 50%
+
+}
+.col{
+	float:left;
+	}
+
+
+#home{
+	display:block ;
+	width:90%;
+	height:75%;
+}
+
+#home2{
+	display:none;
+	width:90%;
+		height:75%;
+
+}
+
+
+#but{
+	display: flex ;
+	float:left ;
+}
+#room{ 
+position: absolute;
+
+ }
+
+
+
+ #roomheader{
+
+ }
+
+ #title{
+ 	display: inline;
+ 	border:solid .2em;
+ 	border-radius: 10px;
+
+ }
+
+ #markers{
+ 	position: absolute;
+ 	z-index: 10
+ }
+
+ #markersheader{
+
+ }
+ #list{
+ 	list-style: none ;
+ }
+ #lili{
+ 	position:relative ;
+ 	display: block; 
+ }
+   #draggable {
+    width: 150px;
+     height: 150px;
+      padding: 0.5em; 
+  }
